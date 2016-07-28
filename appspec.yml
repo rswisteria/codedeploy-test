@@ -10,3 +10,8 @@ permissions:
   - object: /var/www/codedeploy-test/tmp
     pattern: '**'
     mode: 775
+hooks:
+  AfterInstall:
+    - location: bin/bundle-install.sh
+      timeout: 300
+      runas: root
