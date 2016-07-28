@@ -12,6 +12,6 @@ permissions:
     mode: 775
 hooks:
   AfterInstall:
-    - location: /var/www/codedeploy-test/bin/bundle-install.sh
+    - location: bin/bundle-install.sh
       timeout: 300
       runas: root
