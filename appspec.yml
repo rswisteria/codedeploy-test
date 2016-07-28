@@ -1,0 +1,12 @@
+versiion: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/codedeploy-test
+permissions:
+  - object: /var/www/codedeploy-test/logs
+    pattern: '**'
+    mode: 775
+  - object: /var/www/codedeploy-test/tmp
+    pattern: '**'
+    mode: 775
