@@ -15,3 +15,5 @@ hooks:
     - location: bin/bundle-install.sh
       timeout: 300
       runas: root
+    - location: bin/migration.sh
+      runas: root
