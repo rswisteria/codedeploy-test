@@ -2,4 +2,4 @@
 require_relative 'application'
 
 # Initialize the Rails application.
-CodedeployTest::application.initialize!
+Rails.application.initialize!
