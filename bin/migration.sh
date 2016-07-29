@@ -1,4 +1,4 @@
-RAILS_ENV=${DEPLOYMENT_GROUP_NAME}
+RAILS_ENV=development
 APPDIR=/var/www/codedeploy-test
 
 cd ${APPDIR}
